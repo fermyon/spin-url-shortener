@@ -1,0 +1,7 @@
+[[route]]
+source = "/spin"
+destination = "https://github.com/fermyon/spin"
+
+[[route]]
+source = "/hype"
+destination = "https://www.fermyon.com/blog/how-to-think-about-wasm"
