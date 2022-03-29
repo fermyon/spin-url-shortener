@@ -25,7 +25,7 @@ impl Router {
     pub fn redirect(self, req: Request) -> Result<Response> {
         let path_info = req
             .headers()
-            .get("PATH_INFO")
+            .get("spin-path-info")
             .expect("cannot get path info from request headers");
         let route = match self.path(path_info.to_str()?) {
             Some(r) => r,
