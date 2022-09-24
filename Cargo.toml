@@ -16,10 +16,10 @@ http = "0.2"
 # Useful for serialization and deserialization.
 serde = { version = "1.0", features = [ "derive" ] }
 # The Spin SDK.
-spin-sdk = { git = "https://github.com/fermyon/spin", rev = "40714a18a5963eb5c29bcf3643319fbd04dd8cd7" }
+spin-sdk = { git = "https://github.com/fermyon/spin", tag = "v0.5.0" }
 # TOML deserializer.
 toml = "0.5"
 # Crate that generates Rust Wasm bindings from a WebAssembly interface.
-wit-bindgen-rust = { git = "https://github.com/bytecodealliance/wit-bindgen", rev = "e9c7c0a3405845cecd3fe06f3c20ab413302fc73" }
+wit-bindgen-rust = { git = "https://github.com/bytecodealliance/wit-bindgen", rev = "cb871cfa1ee460b51eb1d144b175b9aab9c50aba" }
 
 [workspace]
