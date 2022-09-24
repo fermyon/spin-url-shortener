@@ -11,3 +11,5 @@ source = "target/wasm32-wasi/release/url_shortener.wasm"
 files = [ "router.toml" ]
 [component.trigger]
 route = "/..."
+[component.build]
+command = "cargo build --target wasm32-wasi --release"
